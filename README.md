@@ -2,7 +2,7 @@
 
 # 
 
-Task 2. Swagger codegen.
+ Swagger codegen.
 Create the same REST API as in task #1, but use [https://editor.swagger.io/](https://editor.swagger.io/) to create your API definition and generate the server code. Choose any java-based server or server framework, that you like. You can either use the online editor or generate the code manually, e.g. using this document: [https://github.com/swagger-api/swagger-codegen/wiki/server-stub-generator-howto](https://github.com/swagger-api/swagger-codegen/wiki/server-stub-generator-howto). Make sure that you can deploy/run the generated code. Once your stub is ready - implement the same functionality as described in task #1, but now in java.
 Finally, be sure that you can show how your application responds to requests using postman, curl or any other HTTP client.
 
@@ -22,13 +22,13 @@ docker pull mongo:latest
 ### **Step 2: Clone the repository**
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/SUNIL-RAGHU/kaiburr-Task2.git
 ```
 
 ### **Step 3: Navigate to the repository**
 
 ```bash
-cd <repository_directory>
+cd kaiburr-Task2
 ```
 
 ### **Step 4: Build the Docker image for the Spring Boot application**
@@ -40,7 +40,7 @@ docker build -t kaiburr-api .
 ### **Step 5: Open the terminal and navigate to `src/resources`**
 
 ```bash
-cd src/resources
+cd src/main/resources
 ```
 
 ### **Step 6: Start the Docker Compose to run MongoDB and the Spring Boot application**
