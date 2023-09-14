@@ -65,6 +65,14 @@ This endpoint retrieves a list of servers.
 - URL: [http://localhost:9090/swagger-ui/index.html#/server-controller/getAllServers](http://localhost:9090/swagger-ui/index.html#/server-controller/getAllServers)
 
 ### 
+<img width="1440" alt="Screenshot 2023-09-14 at 9 09 02 PM" src="https://github.com/SUNIL-RAGHU/kaiburr-Task2/assets/89726488/85cd635e-5d3c-4b11-938c-c80ba310da77">
+<img width="1440" alt="Screenshot 2023-09-14 at 9 09 24 PM" src="https://github.com/SUNIL-RAGHU/kaiburr-Task2/assets/89726488/e76d353d-f422-4257-8765-7d0f917ce638">
+<img width="1440" alt="Screenshot 2023-09-14 at 9 09 47 PM" src="https://github.com/SUNIL-RAGHU/kaiburr-Task2/assets/89726488/c6773daf-8a4f-4476-82a6-a9f2dea7018a">
+
+
+
+
+
 
 ## **`POST /servers/create`**
 
@@ -78,7 +86,12 @@ This endpoint adds a new server.
 - URL: [http://localhost:9090/swagger-ui/index.html#/server-controller/createServer](http://localhost:9090/swagger-ui/index.html#/server-controller/createServer)
 - Body: JSON Object
 
-### 
+###
+<img width="1439" alt="Screenshot 2023-09-14 at 9 11 14 PM" src="https://github.com/SUNIL-RAGHU/kaiburr-Task2/assets/89726488/e1106c52-36a8-4aa6-9456-d8b60f53bcff">
+<img width="1440" alt="Screenshot 2023-09-14 at 9 11 33 PM" src="https://github.com/SUNIL-RAGHU/kaiburr-Task2/assets/89726488/81cb8923-75cd-4935-8d2e-dca8a2000ebe">
+
+
+
 
 ## **`DELETE /servers/{id}`**
 
@@ -94,6 +107,8 @@ This endpoint deletes a server.
 
 ### 
 
+<img width="1440" alt="Screenshot 2023-09-14 at 9 12 13 PM" src="https://github.com/SUNIL-RAGHU/kaiburr-Task2/assets/89726488/58f28a44-42c7-48df-bf63-312e97fd953e">
+
 ## **`GET /servers/findbyname?name={name}`**
 
 ### **Description**
@@ -107,3 +122,5 @@ Retrieves a server by its name.
 - Path Variable: **`name`** (Name of the server)
 
 ###
+
+<img width="1440" alt="Screenshot 2023-09-14 at 9 10 08 PM" src="https://github.com/SUNIL-RAGHU/kaiburr-Task2/assets/89726488/05a4d317-d860-49c9-9afe-b905ec43ddee">
